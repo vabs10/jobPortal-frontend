@@ -71,9 +71,9 @@ function SignUp() {
 
                     <Select className="block mb-1 w-96 px-4 py-5 border-2 border-gray-500 rounded-md focus:outline-none">
                         <SelectTrigger className=" mb-2 w-96 px-4 py-5 border-2 border-gray-500 rounded-md focus:outline-none">
-                            <SelectValue  placeholder="Roles" />
+                            <SelectValue   placeholder="Roles" />
                         </SelectTrigger>
-                        <SelectContent>
+                        <SelectContent className=" mb-2 w-96 border-2 border-gray-500 rounded-md focus:outline-none">
                             <SelectItem value="recuriter">Recuriter</SelectItem>
                             <SelectItem value="job">Finding a job</SelectItem>
                         </SelectContent>
