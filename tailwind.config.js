@@ -12,7 +12,11 @@ module.exports = {
     container: {
       center: true,
       fontFamily: {
-        customFont: ['"Custom Font"', "sans-serif"],
+        custom1: ["Custom-1", "sans-serif"],
+        custom2: ["Custom-2", "sans-serif"],
+        custom3: ["Custom-3", "sans-serif"],
+        custom4: ["Custom-4", "sans-serif"],
+        custom5: ["Custom-5", "sans-serif"],
        },
       padding: "2rem",
       screens: {

@@ -17,14 +17,17 @@ import {
 import './App.css'
 import { Terminal } from 'lucide-react'
 import Login from './Pages/Login'
+import SignUp from './Pages/SignUp'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-  
-     <Login></Login>
+
+
+     {/* <Login></Login> */}
+     <SignUp></SignUp>
  
     </>
   )

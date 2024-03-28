@@ -6,6 +6,36 @@
   background-color: red;
 }
 
+@font-face {
+  font-family: "Custom-1";
+  src: url(".assets/fonts/InstagramSans.tff"), local("Custom-1"),  format("truetype");
+}
+
+@font-face {
+  font-family: "Custom-2";
+  src: url(".assets/fonts/InstagramSansBold.tff"), local("Custom-2"),  format("truetype");
+}
+
+
+@font-face {
+  font-family: "Custom-3";
+  src: url(".assets/fonts/InstagramSansHigh.otf"), local("Custom-3"),  format("opentype");
+}
+
+
+@font-face {
+  font-family: "Custom-4";
+  src: url(".assets/fonts/InstagramSansLi.tff"), local("Custom-4"),  format("truetype");
+}
+
+
+@font-face {
+  font-family: "Custom-5";
+  src: url(".assets/fonts/InstagramSansM.tff"), local("Custom-5"),  format("truetype");
+}
+
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;

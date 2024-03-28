@@ -4,6 +4,14 @@
   background-color: red;
 }
 
+ body {
+  font-family: "Instagram Sans";
+ }
+
+.title {
+  font-family: "Instagram Sans Headline";
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
