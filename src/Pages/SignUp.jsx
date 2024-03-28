@@ -1,6 +1,15 @@
 import { Button } from "../components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+  } from "@/components/ui/select"
+  
 import SignUpBG from '../images/signup.png';
 import '../App.css';
  
@@ -52,7 +61,26 @@ function SignUp() {
                             required
                             className="block mb-1 w-96 px-4 py-5 border-2 border-gray-500 rounded-md focus:outline-none"
                         />
+
+                        
                     </div>
+
+                    <div className="flex flex-col">
+                        <Label htmlFor="password" className="text-left  text-zinc-950 mb-2">Select Role</Label>
+
+
+                    <Select className="block mb-1 w-96 px-4 py-5 border-2 border-gray-500 rounded-md focus:outline-none">
+                        <SelectTrigger className=" mb-2 w-96 px-4 py-5 border-2 border-gray-500 rounded-md focus:outline-none">
+                            <SelectValue  placeholder="Roles" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectItem value="recuriter">Recuriter</SelectItem>
+                            <SelectItem value="job">Finding a job</SelectItem>
+                        </SelectContent>
+                    </Select>       
+                                            </div>
+
+                    
                     <Button
                         type="submit"
                         className=" block w-96 h-67 py-3 bg-zinc-950 text-white rounded-md"
