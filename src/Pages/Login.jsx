@@ -12,8 +12,8 @@ function Login() {
         {/* Left side - Login Form */}
         <div className="lg:w-1/2 flex items-center justify-center">
             <div className="max-w-md w-full space-y-9">
-                <h2 className="mt-5 text-3xl text-zinc-900 font-semibold text-center lg:text-left">
-                    Sign in
+                <h2 className="pb-5 mt-4 text-4xl text-zinc-900 font-semibold text-center lg:text-left">
+                    Sign in 
                 </h2>
                 <form className="mt-8 space-y-6">
                     <div className="flex flex-col">
@@ -22,7 +22,7 @@ function Login() {
                             type="email"
                             id="email"
                             required
-                            className="block w-96 px-2 py-3 border-2 border-gray-500 rounded-md focus:outline-none"
+                            className="block mb-3 w-96 px-2 py-5 border-2 border-gray-500 rounded-md focus:outline-none"
                         />
                     </div>
                     <div className="flex flex-col">
@@ -31,15 +31,24 @@ function Login() {
                             type="password"
                             id="password"
                             required
-                            className="block w-96 px-4 py-3 border-2 border-gray-500 rounded-md focus:outline-none"
+                            className="block mb-3 w-96 px-4 py-5 border-2 border-gray-500 rounded-md focus:outline-none"
                         />
                     </div>
                     <Button
                         type="submit"
-                        className="block w-96 py-3 bg-zinc-950 text-white rounded-md"
+                        className=" block w-96 h-67 py-3 bg-zinc-950 text-white rounded-md"
                     >
                         Sign in
                     </Button>
+
+                    <div className="pt-5">
+
+
+                    <a href="" className=" mb-2 block font-semibold text-blue-600 text-lg">Forgot Password?</a>
+
+                    <a href="" className="  block font-semibold text-blue-600 text-lg">Create an account ↗</a>
+
+                    </div>
                 </form>
             </div>
         </div>
